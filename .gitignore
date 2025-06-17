@@ -1,0 +1,25 @@
+# Ignore Terraform state and backup files
+*.tfstate
+*.tfstate.*
+.terraform/
+
+# Ignore override files
+*.tfvars
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Ignore crash logs and CLI history
+crash.log
+terraform.tfvars
+.terraformrc
+.terraform.lock.hcl
+
+# Ignore SSH private keys
+*.pem
+*.key
+*.pub
+
+# VS Code-specific files (optional)
+.vscode/
