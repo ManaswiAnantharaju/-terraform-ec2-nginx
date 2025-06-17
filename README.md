@@ -41,7 +41,7 @@ http://<your-ec2-public-ip>
 
 You should see the default NGINX Welcome Page.
 
-- ✅ Example Terraform Output
+- Example Terraform Output
 Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
 
 ## 📁 Project Structure
@@ -52,7 +52,7 @@ terraform-ec2-nginx/
 └── screenshots/
     └── nginx-home.png
 
-🧠 Key Concepts Demonstrated
+## 🧠 Key Concepts Demonstrated
 - EC2 provisioning using Terraform
 - Security group setup (SSH + HTTP access)
 - Key pair authentication for secure remote login
