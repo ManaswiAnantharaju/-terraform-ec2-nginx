@@ -20,6 +20,7 @@ This project provisions an AWS EC2 instance using Terraform and installs NGINX t
 
 - Clone this repo:
 git clone https://github.com/your-username/terraform-ec2-nginx.git
+
 cd terraform-ec2-nginx
 
 - Initialize Terraform:
